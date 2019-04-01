@@ -219,7 +219,7 @@ def quadtree_wrapper(img, error, threshold):
         if u < threshold:
           return compress_img(img, main_dict)
           
-# Error Metrics and their thresholds for sample images
+# Error Metrics and their thresholds for first sample image
 # 0: t = 1362
 # 1: t = 29.7
 # 2: t = 92.44
